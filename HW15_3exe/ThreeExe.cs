@@ -15,6 +15,8 @@
             if (!isActive)
             {
                 Console.WriteLine("программа уже запущена в 3 экземплярах");
+                Thread.Sleep(1000);
+                return;
             }
             else
             {
